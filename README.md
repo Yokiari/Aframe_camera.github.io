@@ -1,1 +1,2 @@
-# A-frame_cameraを使用したWebサイト
+# A-frame_cameraを使用したストリートビュー的奴
+現在はBlenderで制作した画像一枚です
