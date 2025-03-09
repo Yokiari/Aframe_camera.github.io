@@ -19,13 +19,18 @@
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
             border: none;
-            padding: 25px 20px;
+            padding: 20px 20px;
             font-size: 16px;
             cursor: pointer;
             border-radius: 10px;
         }
         .button:hover {
             background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        /* 右側ボタン（→）の位置を左へずらす */
+        .next-button {
+            margin-right: 50px; /* 右端から少し左に移動 */
         }
     </style>
 </head>
@@ -37,8 +42,8 @@
 
     <!-- ボタン配置 -->
     <div class="button-container">
-        <button class="button" onclick="prevImage()">前の画像</button>
-        <button class="button" onclick="nextImage()">次の画像</button>
+        <button class="button" onclick="prevImage()">←</button>
+        <button class="button next-button" onclick="nextImage()">→</button>
     </div>
 
     <script>
